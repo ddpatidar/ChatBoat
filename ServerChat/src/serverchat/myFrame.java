@@ -1,8 +1,3 @@
- /*
-  *   *       Please Visit us at www.codemiles.com     *
-  *  This Program was Developed by www.codemiles.com forums Team
-  *  *           Please Don't Remove This Comment       *
-  */
 package serverchat;
 
 import java.awt.Container;
@@ -31,13 +26,8 @@ import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-/**
- *
- * @author Muhamed
- */
 public class myFrame extends JFrame{
     
-    /** Creates a new instance of myFrame */
     private JTextArea ChatBox=new JTextArea(10,45);
     private JScrollPane myChatHistory=new JScrollPane(ChatBox,JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
             JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -84,11 +74,7 @@ public class myFrame extends JFrame{
         
     }
     
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
         new myFrame();
     }
     
@@ -286,8 +272,3 @@ public class myFrame extends JFrame{
     }
     
 }
- /*
-  *   *       Please Visit us at www.codemiles.com     *
-  *  This Program was Developed by www.codemiles.com forums Team
-  *  *           Please Don't Remove This Comment       *
-  */
